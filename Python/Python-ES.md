@@ -203,7 +203,13 @@ else:
 -   Si sólo tiene una condición puede hacerse en una única línea: `if
     condición: expresión`
 
--   No hay `case`, se usan diccionarios
+-   No hay `case`, se usan diccionarios:
+
+```python
+opciones = {opcion1 : funcion1, opcion2 : funcion2}
+
+opciones[opcionElegida](args)
+```` 
 
 -   Sintaxis alternativa: `A = Y if X else Z`[^7] equivale a:
 
